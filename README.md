@@ -13,7 +13,7 @@ One of the key advantages of N-body simulation is its ability to generate highly
 The general form of particle-particle interaction in N-body problems is given by
 
 $$
-\mathbf{F}_i=Gm_i\sum_{j\neq i}\frac{m_j(\mathbf{X}_j-\mathbf{X}_i)}{|\mathbf{X}_j-\mathbf{X}_i|^3}
+F_i=Gm_i\sum_{j\neq i}\frac{m_j(X_j-X_i)}{|X_j-X_i|^3}
 $$
 
 where $\mathbf{X}_i=(x_i,y_i,z_i)$ are the position vectors of particles. This equation expresses $\mathbf{F}_i=(f_i,g_i,h_i)$ which is the force on particle $i$ exerted by all other particles. $G$ is a constant (gravitational constant) and $m$ are mass, which is assumed to all same. Each component are:
