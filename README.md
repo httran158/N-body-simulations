@@ -16,7 +16,7 @@ $$
 F_i=Gm_i\sum_{j\neq i}\frac{m_j(X_j-X_i)}{|X_j-X_i|^3}
 $$
 
-where $X_i=(x_i,y_i,z_i)$ are the position vectors of particles. This equation expresses $\mathbf{F}_i=(f_i,g_i,h_i)$ which is the force on particle $i$ exerted by all other particles. $G$ is a constant (gravitational constant) and $m$ are mass, which is assumed to all same. Each component are:
+where $X_i=(x_i,y_i,z_i)$ are the position vectors of particles. This equation expresses $F_i=(f_i,g_i,h_i)$ which is the force on particle $i$ exerted by all other particles. $G$ is a constant (gravitational constant) and $m$ are mass, which is assumed to all same. Each component are:
 
 $$
 f_i=Gm^2\sum_{j\neq i}\frac{x_j-x_i}{[(x_j-x_i)^2+(y_j-y_i)^2+(z_j-z_i)^2]^{\frac{3}{2}}}
