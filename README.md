@@ -66,6 +66,6 @@ Methods: OpenMP, MPI, OpenAcc, and CUDA.
 
 All simulations were run on Tulane University's cluster Cypress and Louisiana State University's cluster LONI.
 
-The code used MPI (multi-nodes) in HW18, OpenMP (CPU) in HW21\, OpenAcc (GPU) in HW22 and CUDA (GPU) in HW23.
+The code used MPI (multi-nodes), OpenMP (CPU), OpenAcc (GPU) and CUDA (GPU).
 
 It takes more than 24 hours to run the sequential code on a single node, ~2 hours for MPI on 20 nodes, ~1.3 hours for OpenMP on 48 threads, ~4 mins for OpenAcc (0.35s/step), and ~2.5 mins (0.3s/step) for CUDA. As we can see, GPU is the more excellent way to accelerate the code compared to CPU.
